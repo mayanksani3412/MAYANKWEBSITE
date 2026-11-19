@@ -1,22 +1,6 @@
-# 👨‍💻 Mayank Saini | Portfolio
+# Mayank Saini — VLSI Portfolio
 
-<p align="center">
-  <strong>Electronics & Communication Engineering | VLSI Enthusiast | Developer</strong>
-</p>
-
-<p align="center">
-  Welcome to my personal portfolio repository! This website showcases my technical skills, academic journey, projects, certifications, experience, and achievements.
-</p>
-
----
-
-## 🚀 About Me
-
-Hello! I'm **Mayank Saini**, a final-year VLSI student passionate about semiconductor technology, digital electronics, hardware design, and software development.
-
-I enjoy exploring new technologies, building practical projects, and continuously improving my technical knowledge.
-
-This portfolio represents my learning journey, technical interests, and professional development.
+A responsive, multi-page portfolio built with plain HTML, CSS, and JavaScript. No build step is required. Existing profile, certificate, event, and resume assets are retained. The previous Notes section and notes files have been removed.
 
 ## 🌐 Portfolio Features
 
@@ -124,19 +108,15 @@ Refer to the project configuration and Supabase documentation before enabling se
 Explore my other projects:
 
 - [CHIPVERSE](https://github.com/mayanksani3412/CHIPVERSE)
-- [Parameterized Verilog Adder](https://github.com/mayanksani3412)
-- [Neon Highway — Car Racing Game](https://github.com/mayanksani3412)
+- [Parameterized Verilog adder](https://github.com/mayanksani3412/verilog-full-adder-or-n-bit-adder-verilog)
+- [Neon Highway — Car Racing Game](https://github.com/mayanksani3412/Car-Racing-Game)
 
-## 🔗 Connect With Me
+LinkedIn blocked automated access during preparation, so no additional claims were sourced from it. Project visuals that are not real project screenshots are labeled as illustrations. Planned roadmap items are not presented as completed skills.
 
-- **GitHub:** [@mayanksani3412](https://github.com/mayanksani3412)
-- **Portfolio Repository:** [MAYANKWEBSITE](https://github.com/mayanksani3412/MAYANKWEBSITE)
+## Search engine setup
 
----
+Before deploying, replace `SITE-URL-REQUIRED.example` in `sitemap.xml` with the final HTTPS origin and add the matching Sitemap URL to `robots.txt`. The final hosting domain was not available when this project was prepared.
 
-<p align="center">
-  <strong>Building Today. Innovating Tomorrow. 🚀</strong>
-</p>
 
 <p align="center">
   © 2026 Mayank Saini. All Rights Reserved.
