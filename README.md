@@ -1,49 +1,143 @@
-# Mayank Saini — VLSI Portfolio
+# 👨‍💻 Mayank Saini | Portfolio
 
-A responsive, multi-page portfolio built with plain HTML, CSS, and JavaScript. No build step is required. Existing profile, certificate, event, and resume assets are retained. The previous Notes section and notes files have been removed.
+<p align="center">
+  <strong>Electronics & Communication Engineering | VLSI Enthusiast | Developer</strong>
+</p>
 
-## Pages
+<p align="center">
+  Welcome to my personal portfolio repository! This website showcases my technical skills, academic journey, projects, certifications, experience, and achievements.
+</p>
 
-- `index.html` — Home, highlights, and the four-card My Resumes library
-- `about.html`, `education.html`, `experience.html`, `skills.html`
-- `projects.html` — portfolio projects and public GitHub projects
-- `pages/projects/` — individual project details
-- `certifications.html`, `gallery.html`, `roadmap.html`
-- `contact.html` — email-client fallback or configured email-delivery function
+---
 
-Shared site styling is in `css/style.css`. Common interactions are in `js/main.js`, and contact form logic is maintained separately in `js/contact.js`.
+## 🚀 About Me
 
-## Preview
+Hello! I'm **Mayank Saini**, a final-year VLSI student passionate about semiconductor technology, digital electronics, hardware design, and software development.
 
-Open the folder in VS Code and use a local HTTP server such as the Live Server extension. The public portfolio pages work without backend credentials.
+I enjoy exploring new technologies, building practical projects, and continuously improving my technical knowledge.
 
-## Source and deployment access
-Supabase RLS protects database operations; it does not control GitHub source access or hosting-account permissions.
+This portfolio represents my learning journey, technical interests, and professional development.
 
-## Contact delivery
+## 🌐 Portfolio Features
 
-Without an endpoint, the contact form opens the visitor's email application and explicitly says the message has not been sent by the website.
+- **Home:** Personal introduction and professional highlights.
+- **About Me:** Background and career interests.
+- **Education:** Academic journey and qualifications.
+- **Skills:** Technical and programming skills.
+- **Experience:** Professional and practical experience.
+- **Projects:** Academic and personal projects.
+- **Certifications:** Courses and certifications.
+- **Gallery:** Events and memorable moments.
+- **Roadmap:** Future learning goals.
+- **Contact:** Contact form and communication options.
+- **Resume Library:** Multiple resume versions.
 
-For server-side email delivery, deploy `supabase/functions/contact-message/` as a Supabase Edge Function with Resend:
+## 🛠️ Technologies Used
 
-1. Verify a sender domain in Resend.
-2. Set `RESEND_API_KEY`, `CONTACT_FROM_EMAIL`, optional `CONTACT_TO_EMAIL`, `CONTACT_RATE_LIMIT_SALT`, and a comma-separated `CONTACT_ALLOWED_ORIGINS` using Supabase Function secrets. The salt and service-role key remain server-only; do not put them in `backend/config.js`.
-3. Deploy the function and set `window.__CONTACT_ENDPOINT__` to its HTTPS URL in `backend/config.js`.
-4. The page reports success only if the function receives an accepted message ID from the email provider. Errors remain visible and the form is not cleared.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Interactive functionality |
+| Supabase | Backend and database integration |
+| Git & GitHub | Version control and hosting |
 
-The function validates input, limits field lengths, checks the request origin, includes a honeypot, applies a database-backed limit of five requests per address per 15 minutes using a salted address hash, and always delivers to the configured owner address rather than a user-supplied recipient.
+## 📂 Project Structure
 
-## Resume and source accuracy
+```text
+MAYANKWEBSITE/
+│
+├── assets/
+├── backend/
+├── css/
+├── database/
+├── js/
+├── pages/
+│   └── projects/
+├── reset-password/
+│
+├── index.html
+├── about.html
+├── education.html
+├── experience.html
+├── skills.html
+├── projects.html
+├── certifications.html
+├── gallery.html
+├── community.html
+├── contact.html
+├── roadmap.html
+│
+├── supabase/
+│   └── functions/
+│
+├── README.md
+└── .gitignore
+```
 
-The homepage's **My Resumes** section links to four original PDFs in the project root: `Mayank_Saini_Resume.pdf`, `MAYANK N.pdf`, `Mayank_QA_Testing_Intern_Resume.pdf`, and `VLSI frontend developer.pdf`. The first two are closely related VLSI-focused versions with different stated role headers; the other two are tailored to QA testing and VLSI front-end roles. All four original files remain unchanged. Project details are based on the existing portfolio and public repositories. The additional GitHub projects are:
+## 💻 Run Locally
+
+To run this project on your computer:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mayanksani3412/MAYANKWEBSITE.git
+```
+
+2. Open the project folder:
+
+```bash
+cd MAYANKWEBSITE
+```
+
+3. Open the folder in Visual Studio Code.
+
+4. Install the Live Server extension.
+
+5. Right-click `index.html` and select **Open with Live Server**.
+
+Your portfolio website will open in your browser.
+
+## ⚙️ Backend Configuration
+
+This project includes Supabase integration for backend-related functionality.
+
+For contact form email delivery, the Supabase Edge Function and required environment secrets must be configured separately.
+
+Refer to the project configuration and Supabase documentation before enabling server-side email delivery.
+
+**Security Note:** Never upload private API keys, service-role keys, passwords, or other sensitive credentials to GitHub.
+
+## 🎯 My Technical Interests
+
+- VLSI Design and Semiconductor Technology
+- Digital Electronics
+- Verilog HDL
+- RTL Design and Verification
+- FPGA and Hardware Design
+- Embedded Systems
+- Web Development
+
+## 📌 Featured Projects
+
+Explore my other projects:
 
 - [CHIPVERSE](https://github.com/mayanksani3412/CHIPVERSE)
-- [Parameterized Verilog adder](https://github.com/mayanksani3412/verilog-full-adder-or-n-bit-adder-verilog)
-- [Neon Highway — Car Racing Game](https://github.com/mayanksani3412/Car-Racing-Game)
+- [Parameterized Verilog Adder](https://github.com/mayanksani3412)
+- [Neon Highway — Car Racing Game](https://github.com/mayanksani3412)
 
-LinkedIn blocked automated access during preparation, so no additional claims were sourced from it. Project visuals that are not real project screenshots are labeled as illustrations. Planned roadmap items are not presented as completed skills.
+## 🔗 Connect With Me
 
-## Search engine setup
+- **GitHub:** [@mayanksani3412](https://github.com/mayanksani3412)
+- **Portfolio Repository:** [MAYANKWEBSITE](https://github.com/mayanksani3412/MAYANKWEBSITE)
 
-Before deploying, replace `SITE-URL-REQUIRED.example` in `sitemap.xml` with the final HTTPS origin and add the matching Sitemap URL to `robots.txt`. The final hosting domain was not available when this project was prepared.
+---
 
+<p align="center">
+  <strong>Building Today. Innovating Tomorrow. 🚀</strong>
+</p>
+
+<p align="center">
+  © 2026 Mayank Saini. All Rights Reserved.
+</p>
