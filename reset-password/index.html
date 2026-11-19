@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Opening password reset…</title>
+</head>
+<body>
+  <p>Opening the secure password reset page…</p>
+  <noscript><p>JavaScript is required to continue. Open <a href="../reset-password.html">the password reset page</a> and preserve the recovery link query and fragment.</p></noscript>
+  <script>
+    const resetPage = new URL('../reset-password.html', window.location.href);
+    resetPage.search = window.location.search;
+    resetPage.hash = window.location.hash;
+    window.location.replace(resetPage.href);
+  </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace SITE-URL-REQUIRED.example with the deployed HTTPS origin before publishing. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://SITE-URL-REQUIRED.example/</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/about.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/education.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/experience.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/skills.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/projects.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/certifications.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/gallery.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/roadmap.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/contact.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/pages/projects/risc-cpu.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/pages/projects/cmos-logic-gates.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/pages/projects/chipverse.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/pages/projects/n-bit-adder.html</loc></url>
+  <url><loc>https://SITE-URL-REQUIRED.example/pages/projects/car-racing-game.html</loc></url>
+</urlset>

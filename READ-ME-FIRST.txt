@@ -1,0 +1,16 @@
+MAYANK SAINI — VLSI PORTFOLIO
+
+Open this folder in VS Code and preview index.html with Live Server.
+The site uses separate HTML pages with shared CSS and JavaScript.
+
+The homepage's My Resumes section links to all four original PDFs:
+  Mayank_Saini_Resume.pdf
+  MAYANK N.pdf
+  Mayank_QA_Testing_Intern_Resume.pdf
+  VLSI frontend developer.pdf
+
+See README.md and database\schema.sql. No chat is presented as live
+until the backend is configured.
+
+The contact form opens an email app unless its server-side email
+endpoint is configured. It does not claim to send without confirmation.
